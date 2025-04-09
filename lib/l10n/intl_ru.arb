@@ -1,0 +1,19 @@
+{
+  "authorization": "Авторизация",
+  "email": "Почта",
+  "register": "Зарегистрироваться",
+  "login": "Войти",
+  "cannot_be_empty": "Значение не может быть пустым",
+  "password": "Пароль",
+  "back": "Назад",
+  "main": "Главная",
+  "start": "Начать",
+  "logout": "Выйти",
+  "profile": "Профиль",
+  "select_category": "Выберите категорию",
+  "question": "Вопрос {firstValue}/{secondValue}",
+  "results": "Результаты",
+  "go_back": "Вернуться назад",
+  "count_correct_answers": "Количество верных ответов: {value}",
+  "category": "Категория: {value}"
+}

@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "918968462884",
+    "project_id": "authenticationriverpod-3a400",
+    "storage_bucket": "authenticationriverpod-3a400.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918968462884:android:1a9b1dce80068038b8f2b1",
+        "android_client_info": {
+          "package_name": "com.example.authentication_riverpod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918968462884-d2pobaintv3cudaa5ot12bemttbtdrv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpHwfMdLdF52B3fWvdzj1b8NNBsprli4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918968462884-d2pobaintv3cudaa5ot12bemttbtdrv5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "918968462884-fkv76m4ag7810e0bnoegtilc2iioough.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.authenticationRiverpod"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918968462884:android:80173c837e882867b8f2b1",
+        "android_client_info": {
+          "package_name": "com.quiz.app.quiz_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918968462884-d2pobaintv3cudaa5ot12bemttbtdrv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpHwfMdLdF52B3fWvdzj1b8NNBsprli4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918968462884-d2pobaintv3cudaa5ot12bemttbtdrv5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "918968462884-fkv76m4ag7810e0bnoegtilc2iioough.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.authenticationRiverpod"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
