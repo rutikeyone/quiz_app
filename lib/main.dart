@@ -1,3 +1,4 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dio/dio.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
@@ -6,9 +7,14 @@ import 'package:quiz_app/app/router/app_router.dart';
 import 'package:quiz_app/domain/auth_service.dart';
 import 'package:quiz_app/app/quiz_app.dart';
 import 'package:quiz_app/domain/quiz_service.dart';
+import 'package:uuid/uuid.dart';
 
 final dio = _createDio();
-final _quizService = QuizServiceImpl(dio: dio);
+final _quizService = QuizServiceImpl(
+  dio: dio,
+  firebaseFirestore: FirebaseFirestore.instance,
+  uuid: Uuid(),
+);
 final _authService = AuthServiceImpl(FirebaseAuth.instance);
 final _router = createRouter(_authService);
 

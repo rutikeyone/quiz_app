@@ -9,6 +9,7 @@ import 'package:quiz_app/presentation/questions_page.dart';
 import 'package:quiz_app/presentation/register_page.dart';
 import 'package:quiz_app/app/router/routes/base/app_screens.dart';
 import 'package:quiz_app/presentation/result_page.dart';
+import 'package:quiz_app/presentation/results_page.dart';
 
 GoRouter createRouter(AuthService authService) => GoRouter(
   initialLocation: AppScreens.login.routePath,
@@ -65,6 +66,13 @@ GoRouter createRouter(AuthService authService) => GoRouter(
           },
           routes: [
             GoRoute(
+              name: AppScreens.home.results.routeName,
+              path: AppScreens.home.results.routePath,
+              builder: (context, state) {
+                return ResultsPage();
+              },
+            ),
+            GoRoute(
               name: AppScreens.home.categories.questions.routeName,
               path: AppScreens.home.categories.questions.routePath,
               builder: (context, state) {
@@ -87,6 +95,7 @@ GoRouter createRouter(AuthService authService) => GoRouter(
                         .questions
                         .result
                         .withResultArgument(state.uri.queryParameters);
+
                     return ResultPage(
                       arguments: arguments,
                       homeRoute: AppScreens.home,

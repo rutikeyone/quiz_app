@@ -31,10 +31,46 @@
               "client_type": 3
             },
             {
-              "client_id": "918968462884-fkv76m4ag7810e0bnoegtilc2iioough.apps.googleusercontent.com",
+              "client_id": "918968462884-8q9lvvf7ggc2lcvp52bo3ebpp23ib112.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.authenticationRiverpod"
+                "bundle_id": "com.example.quizApp1"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:918968462884:android:7f088fc8248d6c70b8f2b1",
+        "android_client_info": {
+          "package_name": "com.example.quiz_app_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "918968462884-d2pobaintv3cudaa5ot12bemttbtdrv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpHwfMdLdF52B3fWvdzj1b8NNBsprli4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "918968462884-d2pobaintv3cudaa5ot12bemttbtdrv5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "918968462884-8q9lvvf7ggc2lcvp52bo3ebpp23ib112.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.quizApp1"
               }
             }
           ]
@@ -67,10 +103,10 @@
               "client_type": 3
             },
             {
-              "client_id": "918968462884-fkv76m4ag7810e0bnoegtilc2iioough.apps.googleusercontent.com",
+              "client_id": "918968462884-8q9lvvf7ggc2lcvp52bo3ebpp23ib112.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.authenticationRiverpod"
+                "bundle_id": "com.example.quizApp1"
               }
             }
           ]

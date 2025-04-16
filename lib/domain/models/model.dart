@@ -4,5 +4,6 @@ part 'category.dart';
 part 'quiz.dart';
 part 'answers.dart';
 part 'correct_answers.dart';
+part 'result.dart';
 part 'model.freezed.dart';
 part 'model.g.dart';

@@ -83,3 +83,13 @@ Map<String, dynamic> _$CorrectAnswersToJson(_CorrectAnswers instance) =>
       'answer_e_correct': instance.answerECorrect,
       'answer_f_correct': instance.answerFCorrect,
     };
+
+_Result _$ResultFromJson(Map<String, dynamic> json) => _Result(
+  count: json['count'] as String,
+  category: json['category'] as String,
+);
+
+Map<String, dynamic> _$ResultToJson(_Result instance) => <String, dynamic>{
+  'count': instance.count,
+  'category': instance.category,
+};

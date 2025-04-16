@@ -23,7 +23,8 @@ class HomePage extends StatelessWidget {
             SizedBox(
               width: 196,
               child: ElevatedButton(
-                onPressed: () => context.pushNamed(homeRoute.categories.routeName),
+                onPressed:
+                    () => context.pushNamed(homeRoute.categories.routeName),
                 child: Text(S.of(context).start),
               ),
             ),
@@ -32,8 +33,20 @@ class HomePage extends StatelessWidget {
               child: SizedBox(
                 width: 196,
                 child: ElevatedButton(
-                  onPressed: () => context.pushNamed(homeRoute.profile.routeName),
+                  onPressed:
+                      () => context.pushNamed(homeRoute.profile.routeName),
                   child: Text(S.of(context).profile),
+                ),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.only(top: 16.0),
+              child: SizedBox(
+                width: 196,
+                child: ElevatedButton(
+                  onPressed:
+                      () => context.pushNamed(homeRoute.results.routeName),
+                  child: Text(S.of(context).results),
                 ),
               ),
             ),

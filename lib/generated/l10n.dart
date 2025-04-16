@@ -174,6 +174,21 @@ class S {
       args: [value],
     );
   }
+
+  /// `Сохранить`
+  String get save {
+    return Intl.message('Сохранить', name: 'save', desc: '', args: []);
+  }
+
+  /// `Результат успешно сохранен`
+  String get result_was_saved_successfully {
+    return Intl.message(
+      'Результат успешно сохранен',
+      name: 'result_was_saved_successfully',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

@@ -66,4 +66,5 @@ class DefaultFirebaseOptions {
     iosClientId: '918968462884-jpag4pjqi03b99f86dmku18istkmahfp.apps.googleusercontent.com',
     iosBundleId: 'com.quiz.app.quizApp',
   );
+
 }

@@ -15,5 +15,10 @@
   "results": "Результаты",
   "go_back": "Вернуться назад",
   "count_correct_answers": "Количество верных ответов: {value}",
-  "category": "Категория: {value}"
+  "category": "Категория: {value}",
+  "save": "Сохранить",
+  "result_was_saved_successfully": "Результат успешно сохранен"
 }
+
+
+

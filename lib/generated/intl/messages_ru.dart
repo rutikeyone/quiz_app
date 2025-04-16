@@ -45,7 +45,11 @@ class MessageLookup extends MessageLookupByLibrary {
     "profile": MessageLookupByLibrary.simpleMessage("Профиль"),
     "question": m2,
     "register": MessageLookupByLibrary.simpleMessage("Зарегистрироваться"),
+    "result_was_saved_successfully": MessageLookupByLibrary.simpleMessage(
+      "Результат успешно сохранен",
+    ),
     "results": MessageLookupByLibrary.simpleMessage("Результаты"),
+    "save": MessageLookupByLibrary.simpleMessage("Сохранить"),
     "select_category": MessageLookupByLibrary.simpleMessage(
       "Выберите категорию",
     ),
