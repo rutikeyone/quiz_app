@@ -9,6 +9,8 @@ import 'package:quiz_app/app/quiz_app.dart';
 import 'package:quiz_app/domain/quiz_service.dart';
 import 'package:uuid/uuid.dart';
 
+import 'firebase_options.dart';
+
 final dio = _createDio();
 final _quizService = QuizServiceImpl(
   dio: dio,
@@ -20,12 +22,8 @@ final _router = createRouter(_authService);
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  final quizApp = QuizApp(
-    authService: _authService,
-    router: _router,
-    quizService: _quizService,
-  );
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+  final quizApp = QuizApp(authService: _authService, router: _router, quizService: _quizService);
   runApp(quizApp);
 }
 
